@@ -21,7 +21,7 @@ This script set Reachy's motor to compliant mode and display every second the po
 
 ### move_memory.py
 The script allows a user to move Reachy freely. Hitting `return` save the current position of the arm in a new key point. You can save as many key point 
-as you want. When you're finished type "save" and the list of the key points will be saved in a json file. Then the are will iterate other the list of key points to redo the same moves.  
+as you want. When you're finished type "save" and the list of the key points will be saved in a json file. Then the arm will iterate other the list of key points to redo the same moves.  
 
 This script has 2 parameters :
 - file_path: path of a json file where it will store the key points
